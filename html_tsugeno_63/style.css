@@ -1,0 +1,245 @@
+#site-box {
+    Width: 1200px;
+}
+
+.text-yellow {
+    color: #ffd61a
+}
+
+.text-white {
+    color: #fff
+}
+
+a {
+    color: black
+}
+
+body {
+    text-align: center;
+}
+
+/* ヘッダー*/
+.header{
+    width: 100%;
+    height: 100px; 
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-left: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-left:auto; 
+}
+
+.top-menu {
+    font-size: 21px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+
+}
+.menu-item{
+    margin-right: 50px;
+}
+
+
+/* メインタイトル */
+.example {
+    position: relative;
+}
+
+.main-title1 {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+.main-title2 {
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+.main-image {
+    background-size: cover;
+    background-image: url(./img/mainbg.png);
+    width: 100%;
+}
+
+/* ABOUT */
+#ABOUT {
+    color:#ffd61a;
+  }
+  
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .content {
+    font-size: 24px;
+  }
+  
+  .container {
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  .container-img {
+    flex: 0 0 25%;
+    object-fit: cover;
+    height: 300px;
+    margin-right: none;
+  }
+  
+
+
+.content-input {
+    width: 100%;
+}
+
+/* course */
+.example li {
+	display: flex;
+}
+.example li:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+/* news */
+.news-list{
+    display: flex;
+    margin: 0 0 0 auto;
+}
+
+.news-items{
+    margin-left:30px;
+}
+.More{
+    width: 300px;
+    height: 60px;
+    margin: 60px;
+    font-size: 18px;
+    background-color: #ffd61a; 
+    color: #fafafa;
+    border: 0px;
+}
+.More:hover{
+    background-color: yellow;
+    color: gray;
+}
+/* access */
+.access {
+    background-color: #fafafa;
+}
+
+.table-access{
+    text-align: left;
+    display: inline-block;
+}
+/* contact */
+.contact-table{
+    margin-bottom: 30px;
+    margin: 0 auto;
+    border-top: 1px #bfbfbf solid; 
+    border-bottom: 1px #bfbfbf solid;
+     
+    }
+    
+    #contact{
+        color: #222222;
+        font-weight: bold;   
+    }
+    
+    .contact-h3 {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    
+    .contact-tr{
+        border-bottom: 1px #bfbfbf solid;
+    }
+    
+    th{
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .table-a{
+        width: 160px;
+        padding-left: 16px;
+        padding-right: 64px;
+        vertical-align: text-top;
+        text-align: left;
+    }
+    
+    .table-b{
+        width: 400;
+        border-left: 1px #bfbfbf solid;
+        text-align: left;
+        padding-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    #checkbox {
+        margin-bottom: 24px;
+    }
+    
+    #username{
+        width: 300px;
+    }
+    
+    #username-kana{
+        width: 300px;
+    }
+    
+    #email{
+        width: 300px;
+    }
+    
+    select{
+        width: 300px;
+    }
+    
+    textarea{
+        width: 300px;
+    }
+    
+
+.contact-btn {
+    width: 300px;
+    height: 60px;
+    margin: 60px;
+    font-size: 18px;
+    background-color: #ffd61a; 
+    color: #fafafa;
+    border: 0px;
+}
+
+.contact-btn:hover{
+    background-color: yellow;
+    color: gray;
+}
